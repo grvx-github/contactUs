@@ -784,3 +784,41 @@ color: #0090ff;
 #sendBtn:hover{
 	color: #1f4a6b;
 }
+
+/* Responsive */
+@media (max-width:767px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .main p {
+    padding: 0em;
+    text-align: justify;
+  }
+
+  #form {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+
+  #form input, textarea {
+    width: inherit;
+    padding: 0;
+  }
+
+  #sendBtn {
+    left: 1rem;
+  }
+
+  #contactFooter {
+    padding-block: 0 30px;
+  }
+
+  .icons {
+    padding-top: 0;
+  }
+
+  .footer .copyright {
+    top: 21rem;
+  }
+}
